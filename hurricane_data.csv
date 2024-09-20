@@ -1,0 +1,19 @@
+hurricane_storm_name,start_date,end_date,number_of_deaths,list_of_areas_affected
+Hurricane Agatha,01/06/1975,07/06/1975,0,"Acapulco, Zihuatanejo, Tres Marias Islands, San Clemente Island, Terminal Island, California, Pago Pago"
+Tropical Storm Bridget,27/06/1975,03/07/1975,0,Baja California Peninsula
+Hurricane Carlotta,02/07/1975,10/07/1975,0,Acapulco
+Hurricane Denise,04/07/1975,14/07/1975,0,Mexico
+Tropical Storm Eleanor,10/07/1975,12/07/1975,0,"Acapulco, Manzanillo"
+Tropical Storm Francene,27/07/1975,30/07/1975,0,not known
+Tropical Storm Georgette,11/08/1975,14/08/1975,0,Cabo San Lucas
+Tropical Storm Hilary,11/08/1975,17/08/1975,0,not known
+Hurricane Ilsa,18/08/1975,26/08/1975,0,not known
+Hurricane Jewel,24/08/1975,03/09/1975,0,"Acapulco, Mexico"
+Hurricane Katrina,29/08/1975,07/09/1975,0,Socorro Island
+Unnamed hurricane,31/08/1975,05/09/1975,0,"Hawaii, Alaska, Gulf of Alaska, British Columbia, Montana"
+Hurricane Lily,16/09/1975,21/09/1975,0,"Acapulco, Manzanillo, Socorro Island"
+Tropical Storm Monica,28/09/1975,01/10/1975,0,not known
+Tropical Storm Nanette,28/09/1975,04/10/1975,0,not known
+Hurricane Olivia,22/10/1975,25/10/1975,0,"Mexico, Mazatlán"
+Tropical Storm Priscilla,02/11/1975,07/11/1975,0,Clarion Island
+Other systems,,,0,not known
