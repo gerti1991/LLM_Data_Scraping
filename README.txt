@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 In order to use the OpenAI API, you need to add your API key. Create a `.env` file in the root directory and add the following line:
 
-```
+```bash
 OPENAI_API_KEY=your_openai_api_key
 ```
 
@@ -68,11 +68,9 @@ This will generate a CSV file named `hurricane_data.csv` containing the structur
 
 The task of scraping, data extraction, and data quality assessment was approached systematically to ensure accurate and structured output.
 
-For scraping, the requests library was utilized to fetch the HTML content from the target website. The BeautifulSoup library was employed to parse the HTML structure and extract relevant data such as hurricane names,
-dates, areas affected, and number of deaths. Regular expressions were applied where necessary to clean and extract specific information from unstructured text.
+For **scraping**, the `requests` library was utilized to fetch the HTML content from the target website. The `BeautifulSoup` library was employed to parse the HTML structure and extract relevant data such as hurricane names, dates, areas affected, and the number of deaths. **Regular expressions** were applied where necessary to clean and extract specific information from unstructured text.
 
-For data extraction, the OpenAI API was used to help transform unstructured data into structured JSON format, specifically focusing on extracting hurricane-related information.
-The extraction process ensured the correct identification of fields such as storm names, start/end dates, affected areas, and death counts, even when the data was embedded in descriptive paragraphs. Additional cleaning steps were taken to handle missing values and ensure consistent data formatting.
+For **data extraction**, the OpenAI API was used to transform unstructured data into structured JSON format, specifically focusing on extracting hurricane-related information. The extraction process ensured the correct identification of fields such as storm names, start/end dates, affected areas, and death counts, even when the data was embedded in descriptive paragraphs. **Additional cleaning steps** were taken to handle missing values and ensure consistent data formatting.
 
-To assess the quality of the extracted data, a thorough review was conducted to ensure completeness and accuracy. This included cross-referencing extracted values with the original source content and implementing 
-safeguards to handle missing or erroneous values (e.g., defaulting missing fields to "not known" or 0 for deaths). Overall, this approach provided a robust mechanism for gathering and structuring data from a dynamic webpage.
+To **assess the quality** of the extracted data, a thorough review was conducted to ensure completeness and accuracy. This included cross-referencing extracted values with the original source content and implementing safeguards to handle missing or erroneous values (e.g., defaulting missing fields to "not known" or `0` for deaths). Overall, this approach provided a robust mechanism for gathering and structuring data from a dynamic webpage.
+
